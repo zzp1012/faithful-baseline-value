@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Code release for paper !["Can We Faithfully Represent Absence States to Compute Shapley Values on a DNN?"](https://arxiv.org/abs/2105.10719) (accepted by ICLR 2023)
+Code release for paper ["Can We Faithfully Represent Absence States to Compute Shapley Values on a DNN?"](https://arxiv.org/abs/2105.10719) (accepted by ICLR 2023)
 
 > Although many methods have been proposed to estimate attributions of input variables, there still exists a significant theoretical flaw in the masking-based attribution methods, i.e., it is hard to examine whether the masking method faithfully represents the absence of input variables. Specifically, for masking-based attributions, setting an input variable to the baseline value is a typical way of representing the absence of the variable. However, there are no studies investigating how to represent the absence of input variables and verify the faithfulness of baseline values. Therefore, we revisit the feature representation of a deep model in terms of causality, and propose to use causal patterns to examine whether the masking method faithfully removes information encoded in the input variable. More crucially, it is proven that the causality can be explained as the elementary rationale of the Shapley value. Furthermore, we define the optimal baseline value from the perspective of causality, and we propose a method to learn the optimal baseline value. Experimental results have demonstrated the effectiveness of our method.
 
